@@ -1,0 +1,30 @@
+body{
+font-family:Arial;
+background:#f2f4f8;
+text-align:center;
+}
+
+.box{
+background:white;
+padding:25px;
+margin:30px auto;
+max-width:650px;
+border-radius:12px;
+box-shadow:0 0 15px #ccc;
+}
+
+button{
+padding:10px 15px;
+margin:5px;
+cursor:pointer;
+}
+
+.timer{
+color:red;
+font-size:20px;
+margin-bottom:10px;
+}
+
+.hidden{
+display:none;
+}

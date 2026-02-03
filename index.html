@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>الاختبار</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="box">
+<h2>📚 اختبار الكويز</h2>
+
+<div id="start">
+<input id="username" placeholder="اسم الطالب">
+<button onclick="startQuiz()">ابدأ الاختبار</button>
+<a href="admin.html">دخول المشرف</a>
+</div>
+
+<div id="quiz" class="hidden">
+<div class="timer">⏳ <span id="time"></span></div>
+<h3 id="question"></h3>
+<div id="answers"></div>
+</div>
+</div>
+
+<script src="questions.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
