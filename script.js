@@ -1,5 +1,4 @@
-olet current=0,score=0,timeLeft=60
-,timer;
+let current=0,score=0,timeLeft=60,timer;
 let studentName="",studentId="";
 
 function startQuiz(){
